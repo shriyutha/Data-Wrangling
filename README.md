@@ -1,5 +1,4 @@
 # Data-Wrangling
- WeRateDogs, tweet archive of Tweeter account using python (and it's libraries).
 
 WRANGLE AND ANALYZE DATA:
 
