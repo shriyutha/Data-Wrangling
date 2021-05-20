@@ -48,3 +48,25 @@ The tweet image predictions, i.e., what breed of dog (or other object, animal, e
 This file (image_predictions.tsv) hosted on Udacity's servers and we downloaded it programmatically using python Requests library on the following (URL)
 
 url = https://d17h27t6h515a5.cloudfront.net/topher/2017/August/599fd2ad_image-predictions/image-predictions.tsv)
+
+Key Points :
+
+Key points to keep in mind when data wrangling for this project:
+
+We only want original ratings (no retweets) that have images.
+Though there are 5000+ tweets in the dataset, not all are dog ratings and some are retweets.
+Assessing and cleaning the entire dataset completely would require a lot of time, and is not necessary to practice and demonstrate our skills in data wrangling.
+Therefore, the requirements of this project are only to assess and clean at least 8 quality issues and at least 2 tidiness issues in this dataset.
+Cleaning includes merging individual pieces of data according to the rules of tidy data.
+The fact that the rating numerators are greater than the denominators does not need to be cleaned.
+his unique rating system is a big part of the popularity of WeRateDogs.
+Do not need to gather the tweets beyond August 1st, 2017.
+Twitter API:
+
+In this project, we will be using Tweepy to query Twitter's API for additional data beyond the data included in the WeRateDogs Twitter archive. 
+
+This additional data will include retweet count and favorite count.
+
+Some APIs are completely open, like MediaWiki (accessed via the wptools library). Others require authentication. 
+
+The Twitter API is one that requires users to be authorized to use it. This means that before we can run our API querying code, you need to set up our own Twitter application. 
