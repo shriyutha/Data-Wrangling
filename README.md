@@ -61,6 +61,8 @@ Cleaning includes merging individual pieces of data according to the rules of ti
 The fact that the rating numerators are greater than the denominators does not need to be cleaned.
 his unique rating system is a big part of the popularity of WeRateDogs.
 Do not need to gather the tweets beyond August 1st, 2017.
+
+
 Twitter API:
 
 In this project, we will be using Tweepy to query Twitter's API for additional data beyond the data included in the WeRateDogs Twitter archive. 
@@ -70,3 +72,7 @@ This additional data will include retweet count and favorite count.
 Some APIs are completely open, like MediaWiki (accessed via the wptools library). Others require authentication. 
 
 The Twitter API is one that requires users to be authorized to use it. This means that before we can run our API querying code, you need to set up our own Twitter application. 
+
+
+
+
