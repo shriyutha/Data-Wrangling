@@ -74,5 +74,26 @@ Some APIs are completely open, like MediaWiki (accessed via the wptools library)
 The Twitter API is one that requires users to be authorized to use it. This means that before we can run our API querying code, you need to set up our own Twitter application. 
 
 
+PROJECT DETAILS:
+
+our tasks in this project are as follows:
+
+Data wrangling, which consists of:
+
+Gathering data
+
+Assessing data
+
+Cleaning data
+
+Storing, analyzing, and visualizing our wrangled data
+
+Reporting on 1) our data wrangling efforts and 2) our data analyses and visualizations
 
 
+
+RESOURCES:
+
+Twitter API
+
+Files downloaded from Udacity
