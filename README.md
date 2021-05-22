@@ -1,8 +1,8 @@
 # Data-Wrangling
 
-WRANGLE AND ANALYZE DATA:
+## WRANGLE AND ANALYZE DATA:
 
-INTRODUCTION:
+### INTRODUCTION:
 
     The dataset that I will be wrangling (and analyzing and visualizing) is WeRateDogs, tweet archive of Tweeter account using python (and it's libraries).
 
@@ -26,9 +26,9 @@ INTRODUCTION:
 
     Need to do addtional gathering, then assesing and cleaning for worthy analysis and visualizations.
 
-THE DATA :
+### THE DATA :
 
-ENHANCED TWITTER ARCHIVE:
+#### ENHANCED TWITTER ARCHIVE:
 
 The WeRateDogs Twitter archive contains basic tweet data for all 5000+ of their tweets, but not everything.
 
@@ -41,7 +41,8 @@ Additional Data via the Twitter API:
 2. Fortunately, this additional data can be gathered by anyone from Twitter's API.
 3. Well, "anyone" who has access to data for the 3000 most recent tweets, at least. Because we have the WeRateDogs Twitter archive and specifically the tweet IDs within it, can gather this data for all 5000+.
 4. And we are going to query Twitter's API to gather this valuable data.
-IMAGE PREDICTIONS FILE:
+
+#### IMAGE PREDICTIONS FILE:
 
 The tweet image predictions, i.e., what breed of dog (or other object, animal, etc.) is present in each tweet according to a neural network.
 
@@ -62,8 +63,7 @@ The fact that the rating numerators are greater than the denominators does not n
 his unique rating system is a big part of the popularity of WeRateDogs.
 Do not need to gather the tweets beyond August 1st, 2017.
 
-
-Twitter API:
+#### Twitter API:
 
 In this project, we will be using Tweepy to query Twitter's API for additional data beyond the data included in the WeRateDogs Twitter archive. 
 
@@ -74,7 +74,7 @@ Some APIs are completely open, like MediaWiki (accessed via the wptools library)
 The Twitter API is one that requires users to be authorized to use it. This means that before we can run our API querying code, you need to set up our own Twitter application. 
 
 
-PROJECT DETAILS:
+### PROJECT DETAILS:
 
 our tasks in this project are as follows:
 
@@ -91,8 +91,7 @@ Storing, analyzing, and visualizing our wrangled data
 Reporting on 1) our data wrangling efforts and 2) our data analyses and visualizations
 
 
-
-RESOURCES:
+### RESOURCES:
 
 Twitter API
 
